@@ -1,0 +1,93 @@
+<!-- <html>
+<link rel="stylesheet" href="css\mystyle-2.css">
+
+<body class="form-body">
+
+    <div class=" login-form ">
+
+        <form method="post " action="# ">
+            <div class="form-text " style="background-color: purple; padding: 300px;">
+                <h2>
+                    <p>Login Page</p>
+                </h2>
+                <br>
+                <h3>
+                    <P> Username:</P>
+                </h3>
+                <input type="text " name="Name " placeholder="Manav ">
+                <br>
+                <br>
+                <h3>
+                    <p>Password:</p>
+                </h3>
+                <Input type="password " name="password " placeholder="12345678 ">
+                    <br>
+                <br>
+                <button type="submit " class="button-1 ">Login</button>
+                <button type="reset " class="button-2 ">Reset</button>
+            </div>
+        </form>
+    </div>
+    </div> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/mystyle.css">
+    <script src="https://kit.fontawesome.com/f7629cb6ab.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="form-body">
+
+    <div class="new-form">
+
+        <form method="post" action="#">
+            <div class="form-text">
+                <h2>
+                    Login Page
+                </h2>
+                <br>
+
+
+                <h3>
+                    <P> Username:</P>
+                </h3>
+                <input type="text" name="Name" placeholder="Manav">
+                <h3>or</h3>
+                <h3>User Email:</h3>
+                <input type="email" name="user email" id="user-email" placeholder="1234@mail.com">
+                <!-- <i class="fa-solid fa-eye-slash"></i> -->
+
+                <br>
+                <br>
+                <h3>
+                    <p>Password:</p>
+                </h3>
+                <Input type="password" name="password" placeholder="12345678" id="pass">
+                <i class="fa-solid fa-eye" onclick="click()"></i>
+                <br>
+                <br>
+                <button type="submit" class="button-1">Register</button>
+                <button type="reset" class="button-2">Reset</button>
+                <Script>
+                    var state = "false";
+
+                    function click() {
+
+                        if (state) {
+                            document.getElementById("pass").setAttribute("type"), ("password");
+                            state = "false";
+                        } else {
+
+                            document.getElementById("pass").setAttribute("type"), ("text");
+                            state = "true";
+                        }
+                    }
+                </Script>
+</body>
+
+</html>
